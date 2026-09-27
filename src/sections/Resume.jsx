@@ -1,4 +1,3 @@
-```jsx
 import { motion } from "framer-motion";
 import {
   ArrowDownToLine,
@@ -79,4 +78,4 @@ function Resume() {
 }
 
 export default Resume;
-```
+
