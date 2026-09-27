@@ -1,5 +1,4 @@
 import Navbar from "./components/Navbar";
-
 import Hero from "./sections/Hero";
 import Impact from "./sections/Impact";
 import About from "./sections/About";
