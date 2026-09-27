@@ -76,7 +76,7 @@ function Hero() {
           <div className="hero-image-card">
 
             <img
-              src="/src/assets/profile.jpg"
+              src="/public/profile.jpg"
               alt="Professional portrait"
             />
 
