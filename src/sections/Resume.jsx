@@ -1,3 +1,4 @@
+```jsx
 import { motion } from "framer-motion";
 import {
   ArrowDownToLine,
@@ -6,6 +7,8 @@ import {
 } from "lucide-react";
 
 function Resume() {
+  const resumePath = `${import.meta.env.BASE_URL}resume.pdf`;
+
   return (
     <section id="resume" className="content-section resume-section">
       <div className="section-container">
@@ -45,8 +48,9 @@ function Resume() {
             </p>
 
             <div className="resume-actions">
+
               <a
-                href="/resume.pdf"
+                href={resumePath}
                 target="_blank"
                 rel="noreferrer"
                 className="resume-primary"
@@ -56,13 +60,14 @@ function Resume() {
               </a>
 
               <a
-                href="/resume.pdf"
+                href={resumePath}
                 download
                 className="resume-secondary"
               >
                 Download PDF
                 <ArrowDownToLine size={17} />
               </a>
+
             </div>
           </motion.div>
 
@@ -74,3 +79,4 @@ function Resume() {
 }
 
 export default Resume;
+```

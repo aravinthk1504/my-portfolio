@@ -76,9 +76,9 @@ function Hero() {
           <div className="hero-image-card">
 
             <img
-              src="profile.jpg"
+              src={`${import.meta.env.BASE_URL}profile.jpg`}
               alt="Professional portrait"
-            />
+            />  
 
             <div className="image-overlay">
               <span>AI • DATA • SOFTWARE</span>
