@@ -39,8 +39,8 @@ function About() {
             viewport={{ once: true }}
           >
 
-            <p className="about-lead">
-              I'm Aravinth Kanagaraj, an AI and software developer
+            <p>
+              I'm Aravinth Kanagaraj, an AI/ML and software developer
               currently pursuing an MSc in Artificial Intelligence
               & Robotics.
             </p>
@@ -63,7 +63,7 @@ function About() {
             <p>
               Alongside my technical work, I'm building
               <strong> GenData Tech</strong>, a technology initiative
-              focused on AI, software development, data science,
+              focused on AI, software development,  Web Development,
               IoT and practical technical training.
             </p>
 

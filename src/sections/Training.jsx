@@ -92,7 +92,7 @@ function Training() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <strong>XX+</strong>
+            <strong>100+</strong>
             <span>Students Trained</span>
           </motion.div>
 
@@ -103,7 +103,7 @@ function Training() {
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
           >
-            <strong>XX+</strong>
+            <strong>20+</strong>
             <span>Technical Topics</span>
           </motion.div>
 
@@ -114,7 +114,7 @@ function Training() {
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            <strong>XX+</strong>
+            <strong>100+</strong>
             <span>Practical Projects</span>
           </motion.div>
 

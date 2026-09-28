@@ -82,6 +82,7 @@ const projects = [
     github: "#",
     demo: "#",
   },
+  
 ];
 
 function Projects() {

@@ -77,9 +77,8 @@ function Startup() {
           >
             <p>
               GenData Tech is a technology initiative focused on building
-              practical digital solutions across artificial intelligence,
-              software development, data science, IoT and technical
-              education.
+              practical digital solutions across  AI/ML, software development,  
+              Web Development, IoT and technical education.
             </p>
 
             <p>
