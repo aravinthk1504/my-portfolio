@@ -1195,6 +1195,17 @@ button {
   margin-bottom: 60px;
 }
 
+.experience-header h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(40px, 5vw, 64px);
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+}
+
+.experience-header h2 span {
+  color: #666;
+}
+
 .experience-header p,
 .skills-header p {
   color: #777;
@@ -1205,6 +1216,7 @@ button {
 
   align-self: end;
 }
+
 
 .experience-list {
   border-top: 1px solid rgba(255,255,255,0.08);
@@ -1359,6 +1371,16 @@ button {
   gap: 80px;
 
   margin-bottom: 60px;
+}
+.skills-header h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(40px, 5vw, 64px);
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+}
+
+.skills-header h2 span {
+  color: #666;
 }
 
 .skills-grid {
