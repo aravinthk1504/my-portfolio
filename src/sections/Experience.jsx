@@ -2,6 +2,20 @@ import { motion } from "framer-motion";
 import { BriefcaseBusiness, ArrowUpRight } from "lucide-react";
 
 const experiences = [
+
+     {
+    year: "2024",
+    role: "AI Engineer Intern",
+    company: "Digital Garage",
+    description:
+      "Worked on artificial intelligence and machine learning related development, gaining practical experience in building and applying AI solutions.",
+    technologies: [
+      "Python",
+      "Machine Learning",
+      "AI",
+    ],
+  },
+  
     {
     year: "2023",
     role: "Data Science Intern",
@@ -29,18 +43,6 @@ const experiences = [
     ],
   },
   
-  {
-    year: "2024",
-    role: "AI Engineer Intern",
-    company: "Digital Garage",
-    description:
-      "Worked on artificial intelligence and machine learning related development, gaining practical experience in building and applying AI solutions.",
-    technologies: [
-      "Python",
-      "Machine Learning",
-      "AI",
-    ],
-  },
 ];
 
 function Experience() {
